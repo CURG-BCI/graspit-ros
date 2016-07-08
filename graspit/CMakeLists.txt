@@ -13,7 +13,7 @@ catkin_package(
 )
 
 add_custom_command(
-  OUTPUT ${CMAKE_CURRENT_SOURCE_DIR}/graspit_source/CMakeLists.txt
+  OUTPUT ${CMAKE_CURRENT_SOURCE_DIR}/graspit_source/graspit.pro
   COMMAND git submodule init
   COMMAND git submodule update
   COMMAND cd graspit && patch -N -d graspit_source -p0 < graspit_project.patch && cd ..

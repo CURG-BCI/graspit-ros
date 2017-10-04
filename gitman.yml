@@ -1,0 +1,5 @@
+location: .
+sources:
+- name: graspit/graspit_source
+  repo: https://github.com/CURG-BCI/graspit.git
+  rev: master
